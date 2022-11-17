@@ -51,11 +51,23 @@ if (isset($_POST['submit'])){
     <label for="exampleInputEmail1">Name</label>
     <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name" value=<?php echo $name;?>>
   </div>
-
-  <div class="form-group">
-    <label for="exampleInputEmail1">price</label>
-    <input type="text" name="email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price" value=<?php echo $email;?>>
+      
+    <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" name="email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
   </div>
+      
+        <div class="form-group">
+    <label for="exampleInputEmail1">Contact</label>
+    <input type="text" name="email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter contact">
+  </div>
+      
+        <div class="form-group">
+    <label for="exampleInputEmail1">Password</label>
+    <input type="password" name="email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter password">
+  </div>
+
+ 
 
   <button type="submit" name="submit" class="btn btn-primary">Submit</button>
 </form>
