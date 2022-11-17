@@ -36,6 +36,7 @@ if (isset($_POST['submit'])){
     <title>operation</title>
   </head>
   <body>
+    <h3 style="text-align:center">TATTOO PARLOUR</h3>
   <div class="container my-5">
     <form method="POST">
   <div class="form-group">
