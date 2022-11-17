@@ -45,7 +45,7 @@ if (isset($_POST['submit'])){
 
   <div class="form-group">
     <label for="exampleInputEmail1">price</label>
-    <input type="text" name="email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="text" name="email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price">
   </div>
 
 
