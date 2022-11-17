@@ -17,7 +17,7 @@ $connection = new mysqli('localhost','root','','crudop');
   <body>
     <div class="container">
   
-    <button type="button" class="btn btn-primary my-5"><a href="user.php" class="text-light">Add User</a>
+    <button type="button" class="btn btn-primary my-5"><a href="user.php" class="text-light">Add items</a>
 
   </button>
     
@@ -26,9 +26,7 @@ $connection = new mysqli('localhost','root','','crudop');
     <tr>
       <th scope="col">id</th>
       <th scope="col">Name</th>
-      <th scope="col">Email</th>
-      <th scope="col">Contact</th>
-      <th scope="col">Password</th>
+      <th scope="col">price</th>
       <th scope="col">Operations</th>
     </tr>
   </thead>
