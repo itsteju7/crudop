@@ -26,7 +26,9 @@ $connection = new mysqli('localhost','root','','crudop');
     <tr>
       <th scope="col">id</th>
       <th scope="col">Name</th>
-      <th scope="col">price</th>
+      <th scope="col">Email</th>
+      <th scope="col">Contact</th>
+      <th scope="col">Password</th>
       <th scope="col">Operations</th>
     </tr>
   </thead>
