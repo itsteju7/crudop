@@ -17,7 +17,7 @@ $connection = new mysqli('localhost','root','','crudop');
   <body>
     <div class="container">
   
-    <button type="button" class="btn btn-primary my-5"><a href="user.php" class="text-light">Add items</a>
+    <button type="button" class="btn btn-primary my-5"><a href="user.php" class="text-light">Add User</a>
 
   </button>
     
